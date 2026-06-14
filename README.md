@@ -1,5 +1,5 @@
 # Sum_IN-HK-10
-my tasks 
+PROJECT NO:01
 The CLI Contact Management System is a terminal-based application that simulates a real-world mini CRM (Customer Relationship Management) tool. It allows users to add, update, delete, search, and filter contacts — all without needing a database or internet connection.
 
 Built with a clean modular architecture, the system is lightweight, beginner-friendly, and easily extendable for future features.
