@@ -1,0 +1,5 @@
+Task 3: Custom Data Encryption & Decryption Tool
+A CLI tool that encrypts and decrypts text using a custom algorithm combining Caesar cipher and Base64 encoding.Features
+Custom Encryption: Text is shifted and then Base64 encoded for securityReversible Logic: Decryption restores original text accuratelyFile Handling: Save encrypted data to file and load/decrypt laterError Handling: Handles invalid input and corrupted data gracefullyMenu-Driven Interface: Simple CLI for all operationsHow to Run
+Run the script:bash   python encryption_tool.pyChoose from the menu:Encrypt dataDecrypt dataSave to fileLoad and decrypt from fileFile Structure
+encryption_tool.py - Main application codeencrypted_data.txt - Sample file for storing encrypted data
