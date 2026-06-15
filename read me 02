@@ -1,0 +1,23 @@
+ Python Developer Internship - Tasks 2 
+
+This repository contains solutions for Task 2 and Task 3 of the Python Developer Internship Program by Hasnain Karimain Educational Academy.
+
+---
+
+ Task 2: Multi-User Authentication System
+
+A secure CLI-based authentication system that allows multiple users to register, login, and manage accounts using JSON for data storage.
+
+ Features
+- **User Registration**: Create accounts with username, email, and password
+- **User Login**: Authenticate using username/email and password
+- **Password Security**: Passwords are hashed using SHA-256 before storage
+- **Input Validation**: Email format, unique username/email, and password strength checks
+- **Data Persistence**: All user data stored securely in `users.json`
+- **Modular Code**: Separate functions for each feature with error handling
+
+How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rimshakhalidrao1836-netizen/Sum_IN-HK-10.git
+   cd Sum_IN-HK-10
