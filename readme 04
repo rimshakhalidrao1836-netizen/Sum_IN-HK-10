@@ -1,0 +1,13 @@
+Project 04
+Log Analyzer
+Task 4 - SYNTECXHUB Internship
+
+A simple CLI tool to analyze system log files and generate summary reports.
+
+Features
+- Load .txt and .log files
+- Detect ERROR, WARNING, INFO using regex
+- Count log levels and show stats
+- Search logs by keyword
+- Generate and save summary report to TXT
+
