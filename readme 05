@@ -1,0 +1,17 @@
+# Bulk Email Sender
+**Task 5 - SYNTECXHUB Data Science Internship**
+
+A Python CLI tool for sending personalized bulk emails using SMTP with dynamic templates and delivery tracking.
+
+## Overview
+
+This application automates bulk email campaigns by loading recipient data from CSV or JSON files, applying customizable templates, and sending emails via Gmail SMTP. All delivery attempts are logged for audit and tracking.
+
+## Key Features
+
+- **Bulk Email Dispatch**: Send emails to multiple recipients from CSV or JSON contact lists
+- **Template Personalization**: Replace placeholders like `{name}`, `{company}` with contact-specific data
+- **Secure SMTP Delivery**: Uses TLS encryption and Gmail App Passwords for authentication
+- **Delivery Logging**: Records success, failure, timestamps, and error messages in JSON format
+- **Error Handling**: Validates email formats and handles connection errors gracefully
+- **Modular Architecture**: Separate functions for loading, personalizing, sending, and logging
